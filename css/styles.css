@@ -228,6 +228,7 @@ img {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid var(--LIGHT-SLATE, #8e8f99);
 }
 .values-item-heading {
     font-size: 20px;
