@@ -220,6 +220,15 @@ img {
     width: calc((100% - 3 * 24px) / 4);
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 .values-item-heading {
     font-size: 20px;
     font-weight: 500;
