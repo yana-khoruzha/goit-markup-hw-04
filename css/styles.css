@@ -145,6 +145,14 @@ img {
 }
 .order-section {
     background-color: #2e2f42;
+    background-image: url(/images/office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.3),
+        url(/images/office.jpg),
+        rgba(255, 0, 0, 0.3)
+    );
     padding: 188px 0;
 }
 
