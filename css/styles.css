@@ -2,6 +2,7 @@
     --accent-color: #404bbf;
     --secondary-accent-color: #4d5ae5;
     --cloud-color: #f4f4fd;
+    --color-white: #ffffff;
 }
 
 body {
@@ -398,6 +399,34 @@ img {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-content {
+    margin-right: 120px;
+}
+
+.footer-social-links-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-white);
+    margin-bottom: 16px;
+}
+
+.footer-social-links-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-links-item {
+    width: 40px;
+    height: 40px;
+}
+
 .footer-text {
     color: #f4f4fd;
     font-size: 16px;
@@ -415,4 +444,5 @@ img {
     display: inline-block;
     margin-bottom: 16px;
     margin-right: 0;
+    margin-bottom: 16px;
 }
