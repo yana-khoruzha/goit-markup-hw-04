@@ -443,3 +443,8 @@ img {
     margin-right: 0;
     margin-bottom: 16px;
 }
+
+.footer-social-links-list .social-links-item .social-links-link:hover,
+.footer-social-links-list .social-links-item .social-links-link:focus {
+    background-color: #31d0aa;
+}
