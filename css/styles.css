@@ -276,7 +276,7 @@ img {
 }
 
 .about-worker {
-    padding-top: 32px;
+    padding-top: 32px 0;
 }
 
 .team-card-heading {
