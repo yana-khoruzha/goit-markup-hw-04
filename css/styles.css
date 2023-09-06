@@ -66,7 +66,6 @@ img {
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -90,6 +89,7 @@ img {
 }
 
 .menu-link {
+    display: block;
     padding: 24px 0;
 }
 
@@ -299,6 +299,7 @@ img {
 
 .team-card-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .social-links-list {
